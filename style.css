@@ -1,0 +1,30 @@
+.ions-one{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left:10px ;
+    position:  absolute;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+.social-links a {
+    color: #000000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
